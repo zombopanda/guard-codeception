@@ -7,7 +7,11 @@ module Guard
       def notify(results)
         image     = _image(results)
         message   = _message(results)
-        ::Guard::Notifier::notify(message, {title: TITLE, image: image})
+        if results[:errors] == -1
+          ::Guard::Notifier::notify('Failed', {title: TITLE, image: :failed})
+        else
+          ::Guard::Notifier::notify(message, {title: TITLE, image: image})
+        end
       end
 
       private
@@ -19,11 +23,12 @@ module Guard
       end
 
       def _message(results)
-        message = "#{results[:tests]} tests\n"
-        message << "#{results[:assertions]} assertions\n"
-        message << "#{results[:failures]} failures\n"
-        message << "#{results[:errors]} errors\n"
-        message
+        message = []
+        message << "#{results[:tests]} tests"
+        message << "#{results[:assertions]} assertions"
+        message << "#{results[:failures]} failures" if results[:failures] > 0
+        message << "#{results[:errors]} errors" if results[:errors] > 0
+        message.join(', ') << " in #{results[:time]}"
       end
 
     end

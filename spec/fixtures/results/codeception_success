@@ -1,18 +1,1 @@
-Codeception PHP Testing Framework v1.8.1
-Powered by PHPUnit 3.7.28 by Sebastian Bergmann.
-
-Acceptance Tests (2) ------------------------
-Running  (index2Cept.php)               Running index2Cept.php                  Ok
-Running  (indexCept.php)                Running indexCept.php                   Ok
----------------------------------------------
-
-Functional Tests (0) ------------------------
----------------------------------------------
-
-Unit Tests (0) ------------------------------
----------------------------------------------
-
-
-Time: 132 ms, Memory: 10.75Mb
-
-OK (2 tests, 2 assertions)
+Codeception PHP Testing Framework v2.0.5\nPowered by PHPUnit 4.2.2 by Sebastian Bergmann.\n\n\e[1mUnit Tests (14) \e[22m-----------------------------------------------------------------------------------------------------\nTrying to \e[35;1mtest api session create\e[39;22m (unit\\models\\ApiSessionTest::testApiSessionCreate)                            Ok\nTrying to \e[35;1mtest wrong api user\e[39;22m (unit\\models\\ApiSessionTest::testWrongApiUser)                                    Ok\nTrying to \e[35;1mtest get secure key\e[39;22m (unit\\models\\ApiSessionTest::testGetSecureKey)                                    Ok\nTrying to \e[35;1mtest create session\e[39;22m (unit\\models\\ApiSessionTest::testCreateSession)                                   Ok\nTrying to \e[35;1mtest check secure key\e[39;22m (unit\\models\\ApiSessionTest::testCheckSecureKey)                                Ok\nTrying to \e[35;1mtest menu item create\e[39;22m (unit\\models\\MenuItemTest::testMenuItemCreate)                                  Ok\nTrying to \e[35;1mtest validate parent id\e[39;22m (unit\\models\\MenuItemTest::testValidateParentId)                              Ok\nTrying to \e[35;1mtest delete menu\e[39;22m (unit\\models\\MenuItemTest::testDeleteMenu)                                           Ok\nTrying to \e[35;1mtest menu create\e[39;22m (unit\\models\\MenuTest::testMenuCreate)                                               Ok\nTrying to \e[35;1mtest page create\e[39;22m (unit\\models\\ProjectTest::testPageCreate)                                            Ok\nTrying to \e[35;1mtest init widget\e[39;22m (unit\\models\\MenuWidgetTest::testInitWidget)                                         Ok\nTrying to \e[35;1mtest render\e[39;22m (unit\\models\\MenuWidgetTest::testRender)                                                  Ok\nTrying to \e[35;1mtest project prepare\e[39;22m (unit\\modules\\api\\components\\ProjectTest::testProjectPrepare)                    Ok\nTrying to \e[35;1mtest project create\e[39;22m (unit\\modules\\api\\components\\ProjectTest::testProjectCreate)                      Ok\n---------------------------------------------------------------------------------------------------------------------\n\n\nTime: 13.79 seconds, Memory: 218.25Mb\n\n\e[30;42mOK (14 tests, 36 assertions)\e[0m\n

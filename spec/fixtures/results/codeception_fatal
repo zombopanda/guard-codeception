@@ -1,0 +1,12 @@
+Codeception PHP Testing Framework v2.0.5
+Powered by PHPUnit 4.2.2 by Sebastian Bergmann.
+
+Acceptance Tests (0) ------------------------
+---------------------------------------------
+
+Functional Tests (0) ------------------------
+---------------------------------------------
+
+Unit Tests (1) ---------------------------------------------------------------
+Trying to test me (AppGameTest::testMe)
+PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/bo/php/test/app/models/AppGame.php on line 8

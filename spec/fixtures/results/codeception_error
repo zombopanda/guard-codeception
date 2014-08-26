@@ -1,0 +1,26 @@
+Codeception PHP Testing Framework v2.0.5
+Powered by PHPUnit 4.2.2 by Sebastian Bergmann.
+
+Acceptance Tests (0) ------------------------
+---------------------------------------------
+
+Functional Tests (0) ------------------------
+---------------------------------------------
+
+Unit Tests (1) ---------------------------------------------------------------
+Trying to test me (AppGameTest::testMe)                                  Error
+------------------------------------------------------------------------------
+
+
+Time: 145 ms, Memory: 15.75Mb
+
+There was 1 error:
+
+---------
+1) AppGameTest::testMe
+Exception: 
+
+#1  /home/bo/php/hdroid/tests/unit/AppGameTest.php:22
+                                   
+FAILURES!                          
+Tests: 1, Assertions: 0, Errors: 1.
